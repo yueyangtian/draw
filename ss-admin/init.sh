@@ -1,0 +1,21 @@
+#! /bin/bash
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5000 NTAwMAo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5001 NTAwMQo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5002 NTAwMgo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5003 NTAwMwo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5004 NTAwNAo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5005 NTAwNQo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5006 NTAwNgo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5007 NTAwNwo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5008 NTAwOAo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5009 NTAwOQo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5010 NTAxMAo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5011 NTAxMQo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5012 NTAxMgo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5013 NTAxMwo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5014 NTAxNAo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5015 NTAxNQo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5016 NTAxNgo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5017 NTAxNwo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5018 NTAxOAo  200m
+/root/ss-bash-1.0-beta.3-en/ssadmin.sh add 5019 NTAxOQo  200m
