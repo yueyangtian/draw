@@ -1,7 +1,6 @@
 *.json
 ssusers
 *.log
-sstraffic
 tmp
 *.swp
 *~

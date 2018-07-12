@@ -11,10 +11,8 @@ import threading
 import time
 def sendEmail(to_addr):
 
-    from_addr = u'pawnsir@163.com'  # 输入邮箱地址和口令
-    password = u'tyy1038910619'
-    #to_addr = ['belinda.0422@hotmail.com']  # 输入邮箱收件人地址
-    #to_addr = ['1038910619@qq.com']  # 输入邮箱收件人地址
+    from_addr = u'************@163.com'  # 输入邮箱地址和口令
+    password = u'********************'
 
     smtp_server = 'smtp.163.com'  # 输入SMTP服务器地址
 
