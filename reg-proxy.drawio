@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T08:31:53.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="DU8S8q1_ASur51PoKjKY" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T08:48:24.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="EsfBdo6e9-uvkSk1WgKG" version="15.5.5" type="github">
   <diagram id="2kHhhC5C8ryi1PW7w4x3" name="第 1 页">
-    <mxGraphModel dx="946" dy="1782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="oY1Nen4sBYmkMd0QGpDK-58" value="&lt;span style=&quot;font-size: 24px&quot;&gt;input&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="285" y="505" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.681;entryY=0.896;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;strokeWidth=3;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="42gZQ6lVNrVdXelR5NFE-1" target="oY1Nen4sBYmkMd0QGpDK-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="42gZQ6lVNrVdXelR5NFE-1" value="business B cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="310" y="140" width="130" height="30" as="geometry" />
@@ -189,6 +192,9 @@
         <mxCell id="42gZQ6lVNrVdXelR5NFE-54" value="&lt;span style=&quot;font-size: 24px&quot;&gt;input&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="304" y="1165" width="260" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=11;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="42gZQ6lVNrVdXelR5NFE-55" target="42gZQ6lVNrVdXelR5NFE-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="42gZQ6lVNrVdXelR5NFE-55" value="business A cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="329" y="800" width="130" height="30" as="geometry" />
         </mxCell>
@@ -197,6 +203,24 @@
         </mxCell>
         <mxCell id="42gZQ6lVNrVdXelR5NFE-57" value="business A listener" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="119" y="800" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-58" value="控制面发现B服务注册时下发" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=11;strokeColor=#82b366;strokeWidth=4;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#333333;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-62" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;strokeColor=#333333;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="850" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-63" value="服务初始化部分" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;fontSize=11;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="69" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-64" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;strokeColor=#333333;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="370" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="42gZQ6lVNrVdXelR5NFE-65" value="初始化时发现网格内已有服务A时，对服务A进行发现" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;fontSize=11;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="69" y="710" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
