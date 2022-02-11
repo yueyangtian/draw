@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T03:17:20.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="samtf7hQ1fgT1H8I0qoh" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T03:20:51.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="I2adPb7OMuJsL12VlU0r" version="16.2.7" type="github">
   <diagram id="5RSw2us5nB8iM983i-XA" name="第 1 页">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,48 +155,36 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbpeEciZDlfbmzeo30sF-37" value="xDS request" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.307;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.15;entryY=0.353;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NbpeEciZDlfbmzeo30sF-27" target="NbpeEciZDlfbmzeo30sF-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1180" y="340" as="sourcePoint" />
-            <mxPoint x="1260" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NbpeEciZDlfbmzeo30sF-38" value="fault response" style="endArrow=classic;html=1;rounded=0;exitX=-0.2;exitY=0.378;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NbpeEciZDlfbmzeo30sF-28" target="NbpeEciZDlfbmzeo30sF-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1180" y="340" as="sourcePoint" />
-            <mxPoint x="1230" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-39" value="health check cycle post start" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0345" y="10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1121" y="357" as="sourcePoint" />
-            <mxPoint x="1121" y="404" as="targetPoint" />
+          <mxGeometry x="-0.1449" y="30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1121" y="270" as="sourcePoint" />
+            <mxPoint x="1121" y="310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1170" y="357" />
-              <mxPoint x="1170" y="404" />
+              <mxPoint x="1170" y="270" />
+              <mxPoint x="1170" y="310" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-40" value="pending in health check ready&amp;nbsp;" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="430" as="sourcePoint" />
-            <mxPoint x="1510" y="430" as="targetPoint" />
+            <mxPoint x="875" y="330" as="sourcePoint" />
+            <mxPoint x="1515" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-41" value="health check is ready&amp;nbsp;" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="490" as="sourcePoint" />
-            <mxPoint x="1510" y="490" as="targetPoint" />
+            <mxPoint x="875" y="400" as="sourcePoint" />
+            <mxPoint x="1515" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbpeEciZDlfbmzeo30sF-42" value="start business" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.835;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="NbpeEciZDlfbmzeo30sF-26" target="NbpeEciZDlfbmzeo30sF-29">
+        <mxCell id="NbpeEciZDlfbmzeo30sF-42" value="start business" style="endArrow=classic;html=1;rounded=0;entryX=-0.05;entryY=0.682;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NbpeEciZDlfbmzeo30sF-26" target="NbpeEciZDlfbmzeo30sF-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="950" y="520" as="sourcePoint" />
             <mxPoint x="1000" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbpeEciZDlfbmzeo30sF-43" value="business start success" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.902;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.1;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NbpeEciZDlfbmzeo30sF-29" target="NbpeEciZDlfbmzeo30sF-26">
+        <mxCell id="NbpeEciZDlfbmzeo30sF-43" value="business start success" style="endArrow=classic;html=1;rounded=0;entryX=1.05;entryY=0.775;entryDx=0;entryDy=0;exitX=-0.2;exitY=0.712;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="NbpeEciZDlfbmzeo30sF-29" target="NbpeEciZDlfbmzeo30sF-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1440" y="540" as="sourcePoint" />
             <mxPoint x="1230" y="290" as="targetPoint" />
@@ -204,8 +192,8 @@
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="590" as="sourcePoint" />
-            <mxPoint x="1500" y="590" as="targetPoint" />
+            <mxPoint x="870" y="540" as="sourcePoint" />
+            <mxPoint x="1520" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-45" value="pod ready" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NbpeEciZDlfbmzeo30sF-44">
@@ -214,13 +202,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-46" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;shadow=0;fillColor=#B3B3B3;gradientColor=none;textOpacity=0;opacity=40;" vertex="1" parent="1">
-          <mxGeometry x="850" y="420" width="670" height="60" as="geometry" />
+          <mxGeometry x="860" y="320" width="670" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-47" value="now" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="660" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NbpeEciZDlfbmzeo30sF-48" value="raer start up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="670" width="80" height="20" as="geometry" />
+          <mxGeometry x="1180" y="650" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
